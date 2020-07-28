@@ -18,6 +18,7 @@ function Row({ title, fetchUrl }) {
   return (
     <div className="row">
       <h4>{title}</h4>
+      <h3>fdff</h3>
 
       <div className="row_posters">
         {movies.map((movie) => (
